@@ -42,84 +42,84 @@ class Processor(object):
 
 	def help(self,version):
 		print
-		print color("[ Jarvis - Personal Assistence - v{} ]".format(version),"blue")
+		print("[ Jarvis - Personal Assistence - v{} ]".format(version),"blue")
 		print
 		print
-		print color("[*] exit |or| quit : 			Terminate the program.","blue")
+		print("[*] exit |or| quit : 			Terminate the program.","blue")
 		print
 		print
-		print color("[*] sleep |or| stop |or| wait:  	Sleep until you say 'Jarvis'.","blue")
+		print("[*] sleep |or| stop |or| wait:  	Sleep until you say 'Jarvis'.","blue")
 		print
 		print
-		print color("[*] newspaper |or| news: 		Read the top trending news from reddit.","blue")
+		print("[*] newspaper |or| news: 		Read the top trending news from reddit.","blue")
 		print
 		print
-		print color("[*] say |or| speak [message]:      	Ask Jarvis to say something.","blue")
+		print("[*] say |or| speak [message]:      	Ask Jarvis to say something.","blue")
 		print
-		print color(" examples(say):","green")
+		print(" examples(say):","green")
 		print
-  		print color("  say I like donuts","green")
-  		print color("  speak my name is Jarvis","green")
-		print
-		print
-		print color("[*] run [script]:	 		Run .sh script that you place on the scripts folder with chmod +x","blue")
-		print
-		print color(" example(say):","green")
-		print
-		print color("  run firewall		 		| Place a firewall.sh on the scripts folder and give execution privilege first.","green")
+  		print("  say I like donuts","green")
+  		print("  speak my name is Jarvis","green")
 		print
 		print
-		print color("[*] browser:		 		Ask Jarvis to start your default browser.","blue")
+		print("[*] run [script]:	 		Run .sh script that you place on the scripts folder with chmod +x","blue")
 		print
- 		print color(" example(say):","green")
+		print(" example(say):","green")
 		print
-  		print color("  browser","green")
-		print
-		print
-		print color("[*] terminal:		 		Ask Jarvis to open a gnome-terminal.","blue")
-		print
- 		print color(" example(say):","green")
-		print
-  		print color("  terminal","green")
+		print("  run firewall		 		| Place a firewall.sh on the scripts folder and give execution privilege first.","green")
 		print
 		print
-		print color("[*] search [query]	 		Ask Jarvis to search query via google.","blue")
+		print("[*] browser:		 		Ask Jarvis to start your default browser.","blue")
 		print
-		print color(" example(say):","green")
+ 		print(" example(say):","green")
 		print
-		print color("  search python programming.","green")
-		print
-		print
- 		print color("[*] input [keystroke]:   		Send a command to the Arduino Leonardo without entering editor mode.","blue")
-		print
-        	print color("          * ARDUINO LEONARDO REQUIRED *","red")
-		print
-		print color("voice commands: (Same as EDITOR MODE )","yellow")
+  		print("  browser","green")
 		print
 		print
-		print color("[*] editor: 				Start the editor mode.","blue")
+		print("[*] terminal:		 		Ask Jarvis to open a gnome-terminal.","blue")
 		print
-		print color("          * ARDUINO LEONARDO REQUIRED *","red")
+ 		print(" example(say):","green")
 		print
-		print color("               [EDITOR MODE]","red")
+  		print("  terminal","green")
 		print
-		print color("voice commands: (anything else will be typed)","yellow")
 		print
-		print color(" forward   = tab","green")
- 		print color(" back      = (shift+tab)","green")
- 		print color(" up        = up arrow","green")
-		print color(" down      = down arrow","green")
-		print color(" right     = right arrow","green")
-		print color(" left      = left arrow","green")
-		print color(" super     = super/windows","green")
-		print color(" slash     = slash(/)","green")
-		print color(" backspace = backspace(erase character)","green")
-		print color(" erase	  = press backspace 10 times","green")
-		print color(" space     = space(spacebar)","green")
-		print color(" enter     = enter(return)","green")
-		print color(" close	  = close(alt+f4)","green")
-		print color(" escape    = escape(esc)","green")
-		print color(" exit	  = leaves editor mode","green")
+		print("[*] search [query]	 		Ask Jarvis to search query via google.","blue")
+		print
+		print(" example(say):","green")
+		print
+		print("  search python programming.","green")
+		print
+		print
+ 		print("[*] input [keystroke]:   		Send a command to the Arduino Leonardo without entering editor mode.","blue")
+		print
+        	print("          * ARDUINO LEONARDO REQUIRED *","red")
+		print
+		print("voice commands: (Same as EDITOR MODE )","yellow")
+		print
+		print
+		print("[*] editor: 				Start the editor mode.","blue")
+		print
+		print("          * ARDUINO LEONARDO REQUIRED *","red")
+		print
+		print("               [EDITOR MODE]","red")
+		print
+		print("voice commands: (anything else will be typed)","yellow")
+		print
+		print(" forward   = tab","green")
+ 		print(" back      = (shift+tab)","green")
+ 		print(" up        = up arrow","green")
+		print(" down      = down arrow","green")
+		print(" right     = right arrow","green")
+		print(" left      = left arrow","green")
+		print(" super     = super/windows","green")
+		print(" slash     = slash(/)","green")
+		print(" backspace = backspace(erase character)","green")
+		print(" erase	  = press backspace 10 times","green")
+		print(" space     = space(spacebar)","green")
+		print(" enter     = enter(return)","green")
+		print(" close	  = close(alt+f4)","green")
+		print(" escape    = escape(esc)","green")
+		print(" exit	  = leaves editor mode","green")
 		print
 
 	def start(self):
